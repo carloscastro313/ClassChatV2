@@ -1,0 +1,7 @@
+{
+  "name": "ClassChat",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
