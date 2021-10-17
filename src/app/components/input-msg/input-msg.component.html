@@ -1,0 +1,22 @@
+<ion-footer>
+  <ion-toolbar>
+    <form [formGroup]="msgForm">
+      <ion-item>
+        <ion-input
+          type="text"
+          placeholder="Mensaje"
+          formControlName="msg"
+        ></ion-input>
+      </ion-item>
+
+      <ion-fab-button
+        color="primary"
+        type="submit"
+        [disabled]="msgForm.invalid"
+        (click)="onSubmit()"
+      >
+        <ion-icon name="send-outline"></ion-icon>
+      </ion-fab-button>
+    </form>
+  </ion-toolbar>
+</ion-footer>

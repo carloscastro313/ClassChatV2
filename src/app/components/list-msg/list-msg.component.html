@@ -1,0 +1,10 @@
+<div #container class="container">
+  <div
+    [class]="msg.email == chat.correo ? 'msg emisor' : 'msg receptor'"
+    *ngFor="let msg of listMsg; let i = index"
+  >
+    <h5>{{ msg.email == chat.correo ? "" : msg.email }}</h5>
+    <h5>{{ msg.msg }}</h5>
+    <p>{{ msg.date | date }}</p>
+  </div>
+</div>

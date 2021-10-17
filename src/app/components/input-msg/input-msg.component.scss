@@ -1,0 +1,8 @@
+ion-toolbar {
+  form {
+    display: grid;
+    grid-template-columns: 80% 15%;
+    column-gap: 10px;
+    padding: 5px;
+  }
+}

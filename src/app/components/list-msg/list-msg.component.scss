@@ -1,0 +1,25 @@
+.remitente {
+  align-self: flex-start;
+}
+
+.emisor {
+  align-self: flex-end;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100%;
+  .msg {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border-radius: 10px;
+  }
+}
